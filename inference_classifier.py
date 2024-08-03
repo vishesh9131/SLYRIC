@@ -51,6 +51,11 @@ while True:
                 data_aux.append(x - min(x_))
                 data_aux.append(y - min(y_))
 
+        # Pad data_aux to ensure it has 84 features
+        required_features = 84
+        if len(data_aux) < required_features:
+            data_aux.extend([0] * (required_features - len(data_aux)))
+
         x1 = int(min(x_) * W) - 10
         y1 = int(min(y_) * H) - 10
 
@@ -71,4 +76,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
