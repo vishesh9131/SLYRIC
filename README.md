@@ -1,6 +1,6 @@
 # SLYRIC : Sign Language Yielding Realtime Intelligent Classifier
 
-<img src="/assets/b1.webp" alt="SLYRIC Logo" style="width: 300px; height: 100px;">
+<img src="/assets/b1.webp" alt="SLYRIC Logo" style="width: 300px; height: 200px;">
 
 SLYRIC is a cutting-edge machine learning application designed to recognize hand gestures in real-time using your device's camera. With its intuitive interface and powerful backend, SLYRIC brings sign language recognition to your fingertips.
 
