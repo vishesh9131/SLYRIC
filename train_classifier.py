@@ -10,10 +10,6 @@ data_dict = pickle.load(open('./data.pickle', 'rb'))
 
 data = data_dict['data']
 
-# Print the shapes of the elements in data_dict['data']
-for i, element in enumerate(data):
-    print(f"Element {i} shape: {np.shape(element)}")
-
 # Pad sequences to the maximum length found in the data
 max_length = max(len(element) for element in data)
 data = pad_sequences(data, maxlen=max_length, padding='post', dtype='float32')
