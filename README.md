@@ -16,7 +16,7 @@
 
 ## How It Works
 
-<img src="/assets/wf.png" alt="SLYRIC Workflow Diagram" style="max-width: 100%;">
+<!-- <img src="/assets/wf.png" alt="SLYRIC Workflow Diagram" style="max-width: 100%;"> -->
 
 1. **Capture**: Your device's camera captures hand gestures in real-time.
 2. **Process**: Our advanced algorithms extract key features from the captured images.
@@ -76,13 +76,15 @@ SLYRIC is designed to be flexible. You can easily add new gestures or fine-tune 
 
 ## Performance
 
-<img src="https://via.placeholder.com/600x400.png?text=Performance+Graph" alt="SLYRIC Performance Graph" style="max-width: 100%;">
+<img src="" alt="SLYRIC Performance Graph" style="max-width: 100%;">
 
-SLYRIC achieves an impressive 95% accuracy on standard sign language datasets, with real-time inference speeds of up to 30 frames per second on modern hardware.
+SLYRIC achieves an impressive 95-98.6% accuracy on standard sign language datasets, with real-time inference speeds of up to 30 frames per second on modern hardware.
+
+> We are working on Performance graphs and Benchmarks, suprise us with star and stay tuned for Benchmarks.
 
 ## Support
 
-For questions, feature requests, or bug reports, please open an issue on our [GitHub issue tracker](link-to-issues).
+For questions, feature requests, or bug reports, please open an issue on our [GitHub issue tracker](https://github.com/vishesh9131/SLYRIC/issues).
 
 ## Contributing
 
@@ -90,7 +92,7 @@ We welcome contributions! Please see our [contributing guidelines](link-to-contr
 
 ## License
 
-SLYRIC is released under the MIT License. See the [LICENSE](link-to-license) file for more details.
+SLYRIC is released under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for more details.
 
 ---
 
