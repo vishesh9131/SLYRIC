@@ -2,6 +2,7 @@
 ./*.pdf
 .DS_Store
 .history/
+README.pdf
 
 # master_data is data with A-C letters ,rest of the data dirs are of A-R 
 data/
