@@ -1,1 +1,9 @@
 ./tempCodeRunnerFile.py
+./*.pdf
+.DS_Store
+.history/
+
+# master_data is data with A-C letters ,rest of the data dirs are of A-R 
+data/
+A2Rdata/
+master_data/
