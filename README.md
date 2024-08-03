@@ -16,7 +16,7 @@
 
 ## How It Works
 
-<!-- <img src="/assets/wf.png" alt="SLYRIC Workflow Diagram" style="max-width: 100%;"> -->
+<img src="/assets/wf.png" alt="SLYRIC Workflow Diagram" style="max-width: 100%;">
 
 1. **Capture**: Your device's camera captures hand gestures in real-time.
 2. **Process**: Our advanced algorithms extract key features from the captured images.
@@ -76,7 +76,7 @@ SLYRIC is designed to be flexible. You can easily add new gestures or fine-tune 
 
 ## Performance
 
-<img src="" alt="SLYRIC Performance Graph" style="max-width: 100%;">
+<!-- <img src="" alt="SLYRIC Performance Graph" style="max-width: 100%;"> -->
 
 SLYRIC achieves an impressive 95-98.6% accuracy on standard sign language datasets, with real-time inference speeds of up to 30 frames per second on modern hardware.
 
