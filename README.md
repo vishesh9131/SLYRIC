@@ -16,7 +16,7 @@
 
 ## How It Works
 
-<img src="/assets/wf.svg" alt="SLYRIC Workflow Diagram" style="max-width: 100%;">
+<img src="/assets/wf.png" alt="SLYRIC Workflow Diagram" style="max-width: 100%;">
 
 1. **Capture**: Your device's camera captures hand gestures in real-time.
 2. **Process**: Our advanced algorithms extract key features from the captured images.
