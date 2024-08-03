@@ -14,9 +14,10 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
-labels_dict = {0: 'A', 1: 'B', 2: 'C' }
-while True:
+# Create a dictionary for all letters
+labels_dict = {i: chr(i + ord('A')) for i in range(26)}
 
+while True:
     data_aux = []
     x_ = []
     y_ = []
@@ -64,15 +65,22 @@ while True:
 
         prediction = model.predict([np.asarray(data_aux)])
 
-        predicted_character = labels_dict[int(prediction[0])]
+        # Debugging: Print the prediction to understand its format
+        print(f"Model prediction: {prediction}")
+
+        # Convert prediction to integer index if necessary
+        if isinstance(prediction[0], str):
+            predicted_character = prediction[0]
+        else:
+            predicted_character = labels_dict[int(prediction[0])]
 
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)
         cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3,
                     cv2.LINE_AA)
 
     cv2.imshow('frame', frame)
-    cv2.waitKey(25)
-
+    if cv2.waitKey(25) & 0xFF == ord('q'):
+        break
 
 cap.release()
 cv2.destroyAllWindows()
