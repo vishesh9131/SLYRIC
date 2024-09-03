@@ -1,3 +1,7 @@
+![CircleCI](https://img.shields.io/circleci/build/github/vishesh9131/SLYRIC?label=CircleCI%20Build%20Check%20%20)
+![GitHub contributors](https://img.shields.io/github/contributors/vishesh9131/SLYRIC)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/vishesh9131/SLYRIC)
+
 
 ![SLYRIC Logo](/assets/sly.svg)
 
